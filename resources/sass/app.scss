@@ -1,0 +1,30 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+table tr td:nth-child(3){
+    width:80%;
+    text-align: right;
+}
+table th{
+    font-size: calc(12px + 1.5vw);
+}
+@media(max-width: 500px){
+    div#table {
+        margin-top: 10%;
+        white-space: nowrap;
+        overflow: auto;  
+    }
+}
+
+.alert {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    opacity: 0.5
+}
